@@ -24,7 +24,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-3">
             <span className="grid h-12 w-12 place-items-center overflow-hidden rounded-2xl bg-deep-forest">
               <Image
-                src="/assets/trail-notes-logo.png"
+                src="/TrailNotes/assets/trail-notes-logo.png"
                 alt="Trail Notes logo"
                 width={48}
                 height={48}

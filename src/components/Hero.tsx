@@ -51,7 +51,7 @@ export function Hero() {
             {/* Vertical orange bar: decorative accent, hidden on smaller screens */}
             <div className="absolute -left-5 top-12 hidden h-40 w-2 rounded-full bg-energy-orange lg:block" />
             <Image
-              src="/assets/trail-notes-logo.png"
+              src="/TrailNotes/assets/trail-notes-logo.png"
               alt="Trail Notes contour-line trail map logo with runner silhouette"
               width={900}
               height={900}

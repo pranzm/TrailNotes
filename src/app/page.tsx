@@ -48,7 +48,7 @@ export default function Home() {
               {/* Race photo with an overlay caption */}
               <figure className="relative overflow-hidden rounded-[2.5rem] bg-deep-forest p-3 shadow-2xl shadow-deep-forest/16">
                 <Image
-                  src="/assets/rideep-gogoi.jpg"
+                  src="/TrailNotes/assets/rideep-gogoi.jpg"
                   alt="Rideep Gogoi running at the Tata Mumbai Marathon"
                   width={1200}
                   height={800}
@@ -80,7 +80,7 @@ export default function Home() {
             <div className="grid lg:grid-cols-[1.08fr_0.92fr]">
               <div className="relative min-h-[22rem]">
                 <Image
-                  src="/assets/rideep-gogoi.jpg"
+                  src="/TrailNotes/assets/rideep-gogoi.jpg"
                   alt="Rideep Gogoi focused during a marathon"
                   fill
                   sizes="(min-width: 1024px) 54vw, 100vw"
@@ -190,7 +190,7 @@ export default function Home() {
               {/* Featured photo card: spans 2 of 4 columns */}
               <div className="group relative min-h-72 overflow-hidden rounded-[2rem] border border-deep-forest/10 bg-deep-forest p-6 md:col-span-2">
                 <Image
-                  src="/assets/rideep-gogoi.jpg"
+                  src="/TrailNotes/assets/rideep-gogoi.jpg"
                   alt="Rideep Gogoi running during race day"
                   fill
                   sizes="(min-width: 768px) 50vw, 100vw"

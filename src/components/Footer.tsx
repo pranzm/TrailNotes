@@ -11,7 +11,7 @@ export function Footer() {
           {/* Logo mark on charcoal background to contrast against the deep-forest footer */}
           <span className="grid h-14 w-14 place-items-center overflow-hidden rounded-2xl bg-charcoal">
             <Image
-              src="/assets/trail-notes-logo.png"
+              src="/TrailNotes/assets/trail-notes-logo.png"
               alt="Trail Notes logo"
               width={56}
               height={56}
