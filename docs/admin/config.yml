@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+publish_mode: editorial_workflow
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+site_url: "/"
+display_url: "/"
+logo_url: "/assets/trail-notes-logo.png"
+
+collections:
+  - name: "blogs"
+    label: "Blog Posts"
+    label_singular: "Blog Post"
+    folder: "content/blogs"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} - {{date}}"
+    sortable_fields: ["date", "title", "category"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Category", name: "category", widget: "select", options: ["Training Note", "Race Report", "Route Reflection", "Gear Note", "Travel Story"], default: "Training Note" }
+      - { label: "Route or Event", name: "route", widget: "string", required: false }
+      - { label: "Distance", name: "distance", widget: "string", required: false }
+      - { label: "Elevation", name: "elevation", widget: "string", required: false }
+      - { label: "Short Summary", name: "excerpt", widget: "text" }
+      - { label: "Full Blog", name: "body", widget: "markdown" }
